@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Perfil Personal</title>
+
+    <!-- Acá inserté fuentes con Google Fonts, y ChatGPT me ayudó con un problema que tuve con orbitron -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <style>
+        .orbitron-unique {
+            font-family: "Orbitron", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .chakra-petch-semibold {
+            font-family: "Chakra Petch", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+
+            /* Un intento de hacer que la imagen del album tenga 
+            bordes redondeados (no encontré manera de hacer más pequeña el área del div) 
+              vvvvvvvvvvvvvvvvvvv                                                       */
+        }
+        .images_with_borders{
+            border-radius: 12px;
+            text-align: center;
+            padding-bottom: 20px;
+            border-style: dashed;
+        }
+
+    </style>
+
+    <!-- El siguiente div es el que contiene el titulo del documento -->
+
+    <div style="background-color: #6C2772;">
+        <hr>
+        <h1 style="text-align: center;" class="orbitron-unique">Mi Perfil personal</h1>
+        <hr>
+    </div>
+    <style>
+        table, th, td {
+          border: 1px solid rgb(255, 255, 255); 
+        }
+
+        :root {
+            color-scheme: dark;
+        }
+        table.center {
+                margin-left: auto;
+                margin-right: auto;
+        }
+            td {
+                text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+   <table style="width: 90%; margin: 90px;" class="center">
+       <thead>
+            <tr>
+
+               <th class="chakra-petch-semibold" style="background-color: #7094A8;"scope="col">¿Quién Soy?</th>
+               <th class="chakra-petch-semibold" style="background-color: #68ADA3;" scope="col">Mis intereses</th>
+               
+            </tr>
+       </thead>
+       <!-- Dato: Al principio estaba usando (scope="row") para todas las filas, al final me di cuenta que era innecesario mediante ChatGPT, ya que sabía que no tenía realmente utilidad -->
+       <tbody>
+            <tr>
+                <td>Soy <em>alguien</em></td>
+                <td>Tengo innumerables pasiones además de que soy una persona que tiene un sinnumero de pasatiempos</td>
+            </tr>
+            
+            <tr>
+                <td>Soy una persona muy ambiciosa y competitiva, esa ambición va acompañada de un excesivo perfeccionismo</td>
+                <td> Una de mis pasiones que más puedo remarcar es mi gusto por el género <mark>"Breakcore"</mark> este género tiene un trasfondo increíblemente grande y duraría horas hablando de ello <sub>por algo estoy hablando de esto en este documento</sub></td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Pienso estudiar ingieniería en software debido a mi increíble pasión por la programación</td>
+                <td>Luego está el <em>PenSpinning, El Skateboarding, El osu! (me hizo amar como nunca pude haber imaginado la música y el ritmo en general, jugar osu! me cambio la vida y mis gustos de música además de generar en mi una necesidad de aprender instrumentos, y jugar más juegos de ritmo)</em> y no menos importante la <em>programación</em>, que desde los 7 años sabía que sería lo que estudiaría para el resto de mi vida</td>
+            </tr>
+        </tfoot>
+      </table>
+        <div style="background-color: #262142;">
+
+          <hr>
+          <h2 class="orbitron-unique" style="text-align: center;">Un poco de desarrollo de lo que vendría siendo el breakcore</h2>
+          <hr>
+
+        </div>
+      <!-- Esto lo desarrollé yo eh xd (ambas cosas xdx) -->
+    <p style="text-align: center;" style="font-size: 150%;">El breakcore es un género sacado del Drum and Bass y el Jungle, esta compuesto por samples
+        y baterías a velocidades poco humanamente posibles, el bpm en este género varia muchísimo como por ejemplo entre los 160 y 270 de bpm;
+        el artista más importante del género por mucho sería <strong>goreshit</strong> que posee una alta calidad de producción y a su vez produjo el mejor albúm del género llamado: 
+    </p>
+    <h3 class="orbitron-unique" style="text-align: center; padding-bottom: 10px; padding-top: 10px;"><strong>Semantics compositions on death and its meaning</strong></h3>
+    <div class="images_with_borders">
+       <a href="https://open.spotify.com/album/6o3tgZIP3K1FpAGTwHVvEd?si=3c2a4c299e7248b1">
+           <img src="https://cdns-images.dzcdn.net/images/cover/a08ea3e00365e6c7b5d67b0385eb6aaa/0x1900-000000-80-0-0.jpg" alt="Foto del Albúm" width="500" height="500">
+        </a>
+    </div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6o3tgZIP3K1FpAGTwHVvEd?utm_source=generator" width="100%" height="372" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</body>
+</html>                 
