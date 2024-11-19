@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <h1 style="text-align: center;">Currículum Vitae</h1>
+    <hr>
+
+    <!-- No logré replicar el centrar bien la tabla quedo algo extraña (se puede ver si se aplican los bordes en negro) -->
+    <style>
+        .table.center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        table, td, th{
+            border: 5px solid white
+        }
+
+        .force_right{
+            display: flex;
+            flex-direction: column
+        }
+
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="padding-left: 100px;">Armando Torres</h2>
+        <br>
+    <h3 style="padding-left: 150px;">Experiencia profesional</h3>
+    <p style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus labore rerum voluptatibus dolor velit, molestias at aliquid ipsum possimus placeat mollitia rem, laudantium tempora obcaecati sequi cupiditate. Soluta, praesentium illum!</p>
+        <br>
+    <h3 style="padding-left: 150px;">Habilidades</h3>
+        <br>
+    <table class="center" style="width: 80%; margin: 15px; padding-left: 220px;">
+
+        <thead>
+            <tr>
+                <th>Habilidad 1</th>
+                <th>Habilidad 2</th>
+                <th>Habilidad 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+            </tr>
+        </tbody>
+
+    </table>
+        <br>    
+    <h3 style="padding-left: 150px;">Objetivo profesional</h3>
+    <p style="text-align: center;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero repellat dolor quos provident dicta repellendus assumenda porro, nulla repudiandae, dolore veniam, voluptatum ex magnam beatae neque esse tempora temporibus dolorem explicabo! Quos voluptates amet excepturi soluta maxime modi quis eos!</p>
+
+</body>
+</html>
